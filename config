@@ -1,0 +1,29 @@
+# Archivo de configuración de Ghostty
+# @aherreros-dev
+
+# Para usar fish como shell
+# descargamos fish con brew install fish
+command = /opt/homebrew/bin/fish -i
+
+# -i para cargar configuraciones interactivas y que 
+# todo funcione adecuadamente
+
+# Ghostty viene con bastantes temas 
+# para verlos usamos >>> ghostty +list-themes
+# cargamos nuestro favorito 
+
+theme = IC_Orange_PPL
+#theme = FunForrest
+
+# para que FISH reconozca brew y nos permita utilizar 
+# todos los paquetes ponemos este comando 
+# para tener homebrew en el path de fish
+# >>> set -U fish_user_paths /opt/homebrew/bin /opt/homebrew/sbin $fish_user_paths
+# y hacemos echo$PATH y which brew 
+# si vemos /opt/homebrew/bin/brew es que lo hemos 
+# hecho bien 
+
+# Llegados a este punto comenzamos con la 
+# configuracion de fish
+# creamos el archivo de configuracion 
+# >>> nano ~/.config/fish/config.fish
