@@ -6,7 +6,7 @@ This repository provides a simple configuration to use Ghostty with the Fish she
 ## Installation
 Download Ghostty terminal 
 ```bash
-brew intall --cask ghostty
+brew install --cask ghostty
 ```
 
 Download Fish shell 
